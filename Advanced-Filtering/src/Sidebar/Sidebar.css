@@ -1,0 +1,12 @@
+aside{
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo{
+    font-size: 1.9rem;
+    margin-bottom: 0.6rem;
+}

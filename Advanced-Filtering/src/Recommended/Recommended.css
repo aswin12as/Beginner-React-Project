@@ -1,0 +1,30 @@
+.recommended-container{
+    margin:1.2rem;
+}
+.recommended-title{
+    margin-bottom: 0.8rem;
+}
+
+.recommended-group{
+    max-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    border: 1px solid #b3b3b3;
+    padding: 0.3rem 0.6rem;
+    background-color: white;
+    color: rgb(50,50,50);
+    cursor: pointer;
+    transition: transform 0.35s ease;
+}
+
+button:hover{
+    transform: translateY(-2px);
+}
+
+button:active{
+    transform: translateY(0);
+}

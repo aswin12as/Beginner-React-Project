@@ -1,0 +1,33 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 2px solid #f3f3f3;
+    padding: 15px;
+    z-index:10;
+}
+
+nav input{
+    margin-left:14rem;
+    width: 15rem;
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #f7f6f6;
+}
+
+nav input:focus{
+    outline: none;
+}
+
+.icon-container{
+    display: flex;
+    gap:1.5rem;
+    margin-right:1.6rem;
+    font-size:
+}
+
+.icon{
+    color: #999;
+}

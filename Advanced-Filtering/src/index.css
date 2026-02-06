@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"SN Pro", sans-serif;
+}
+
+.container{
+    display:flex;
+    width: 100%;
+    min-height:100vh;
+}
+
+.left-section{
+    width:15rem;
+    border-right: 2px solid #f3f3f3;
+    position:fixed;
+    z-index:10;
+    top:0;
+    left:0;
+    height:100vh;
+    overflow:hidden;
+    background-color:white;
+}
+
+.right-section{
+    position:relative;
+    left:15rem;
+}  
