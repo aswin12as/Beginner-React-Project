@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#root{
+    width: 100%;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: cyan;
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(40,40,40);
+    color: whitesmoke;
+}
+span{
+    text-align: center;
+    padding: 1.7rem;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container input{
+    text-align: end;
+    grid-column: span 4;
+    font-size: larger;
+    padding:3rem 10px 20px 0px;
+}
+
+.clear{
+    background-color: orange;
+    grid-column: span 2;
+}
+
+.plus{
+    position: relative;
+    top:2.4rem;
+    grid-row: span 2;
+}
